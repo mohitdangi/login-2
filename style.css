@@ -79,15 +79,11 @@
     color: #000;
   }
    @media (max-width: 500px) {
-     .login{
-       max-width: 90%;
-       background-color: red;
-     }
-     .input-group {
-         max-width: 80%;
-     }
-     .login-button {
-         max-width: 80%;
-     }
- }
- 
+       .login{
+      max-width: 90% !important;
+      width: 80% !important;
+      overflow-y: hidden;
+    }
+  
+  
+}
