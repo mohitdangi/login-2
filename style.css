@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  box-sizing: border-box;   
+ }.full-screen-container {
+     /* background-image: url('https://img.freepik.com/premium-photo/3d-illustration-woman-reading-book-while-sitting-stack-books--render_56345-857.jpg?w=996'); */
+     height: 100vh;
+     background: url("./Jahangir_Mahal_at_dawn.jpg");
+     width: 100vw;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ 
+   .login {
+     background-color: hsla(15, 96%, 44%, 0.6);
+     padding: 50px 30px;
+     min-width: 400px;
+     width: 50%;
+     max-width: 500px;
+     border-radius: 20px;
+   
+   }
+ 
+   .login-title {
+     color: #fff;
+     text-align: center;
+     margin: 0;
+     margin-bottom: 40px;
+     font-size: 2.5em;
+     font-weight: normal;
+   }
+ 
+   .input-group {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+   }
+ 
+   .input-group label {
+     color: white;
+     font-weight:bolder;
+     font-size: 1.5em;
+     margin-bottom: 7px;
+   }
+ 
+   .input-group input {
+     font-size: 1.5em;
+     padding: 0.1em 0.25em;
+     background-color: white;
+     border: 1px solid hsl(201, 100%, 6%);
+     outline: none;
+     border-radius: 5px;
+     color: #fff;
+     font-weight:bolder;
+   }
+ 
+   .input-group input:focus {
+     border: 1px solid hsl(201, 100%, 50%);
+   }
+ 
+   .login-button {
+     padding: 10px 30px;
+     width: 100%;
+     border-radius: 5px;
+     background: hsla(201, 100%, 50%, 0.1);
+     border: 1px solid hsl(201, 100%, 50%);
+     outline: none;
+     font-size: 1.5em;
+     color: #fff;
+     font-weight: lighter;
+     margin-top: 20px;
+     cursor: pointer;
+     transition: all 0.2s;
+   }
+   .login-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+   @media (max-width: 500px) {
+     .login{
+       max-width: 90%;
+       background-color: red;
+     }
+     .input-group {
+         max-width: 80%;
+     }
+     .login-button {
+         max-width: 80%;
+     }
+ }
+ 
